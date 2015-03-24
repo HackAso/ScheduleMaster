@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackathon.aso.schedulemaster.activity.ManagementActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_management"
+            android:id="@+id/textView5"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#FFA500"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewEnque"
+            android:background="@mipmap/newenque"
+            android:layout_marginTop="50dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewReslist"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/enquecheck" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewNewplan"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/newplan" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewDeletelist"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/deleteplan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_temp_management" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

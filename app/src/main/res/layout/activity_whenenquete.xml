@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView13" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whenenque_title"
+                android:id="@+id/textView5"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="アンケート情報を入力してください"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:background="#ff7fc8d5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enquetitle_activity_whatenquet"
+                android:id="@+id/textView21"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_title_when"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/simple_frame"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comme_activity_whatenquet"
+                android:id="@+id/textView22"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_comment_when"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/simple_frame"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_day1_when" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_huor1_when"
+                    android:layout_marginLeft="10dp" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_minutes1_when" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_date2_when" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_hour2_when"
+                    android:layout_marginLeft="10dp" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_minutes2_when" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_dasy3_when" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_hour3_when"
+                    android:layout_marginLeft="10dp" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_minutes3_when" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/day_activity_whatenquet"
+                android:id="@+id/textView13"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sp_limit_when"
+                android:layout_marginTop="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="15dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/iv_selectfriend_when"
+                    android:background="@mipmap/member"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5px"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+
+                <View
+                    android:layout_width="2px"
+                    android:layout_height="match_parent"
+                    android:background="#FFA500"
+                    android:layout_marginRight="5px"
+                    />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:hint="選択されたフレンドが表示されます"
+                        android:textSize="15sp"
+                        android:id="@+id/tv_selected_when" />
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_entry_when"
+                android:background="@mipmap/touroku"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

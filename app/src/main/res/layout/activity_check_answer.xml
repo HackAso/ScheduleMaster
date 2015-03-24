@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_title_viewAnswer"
+            android:id="@+id/textView5"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#FFA500" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="回答を確認したいアンケートを選択してください"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="5dp"
+            android:textSize="15sp"
+            android:background="#ff7fc8d5" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_what_checkAnswer"
+            android:layout_marginTop="70dp"
+            android:background="@mipmap/what" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:id="@+id/btn_when_checkAnswer"
+            android:background="@mipmap/when" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_who_chekAnswer"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/who" />
+
+
+    </LinearLayout>
+</ScrollView>

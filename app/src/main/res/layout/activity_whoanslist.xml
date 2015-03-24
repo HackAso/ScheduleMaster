@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView19" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewWhoTitle"
+                android:textSize="30dp"
+                android:text="ここにアンケートタイトルとかどうでしょう？" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="43dp"
+                    android:id="@+id/imageViewJoin"
+                    android:background="@mipmap/join"
+                    android:layout_marginTop="50dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人数"
+                    android:id="@+id/textView24"
+                    android:background="@drawable/frame"
+                    android:textSize="20dp"
+                    android:layout_marginTop="50dp"
+                    android:paddingTop="22dp"
+                    android:paddingRight="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="43dp"
+                    android:id="@+id/imageViewNotJoin"
+                    android:background="@mipmap/notjoin"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人数"
+                    android:id="@+id/textView25"
+                    android:background="@drawable/frame"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="22dp"
+                    android:paddingRight="20dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

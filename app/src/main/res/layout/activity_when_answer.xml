@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView14"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whenenque_title"
+                android:id="@+id/textView5"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whenenqueres_title"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:background="#ff7fc8d5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enquetitle_activity_whatenquet"
+                android:id="@+id/textView21"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_title_whenans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="100dp"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comme_activity_whatenquet"
+            android:id="@+id/textView22"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_comment_whenans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="100dp"  />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date1"
+                android:id="@+id/cb_date1_whenans"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date2"
+                android:id="@+id/cb_date2_whenans"
+                android:textSize="20dp"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date3"
+                android:id="@+id/cb_date3_whenans"
+                android:textSize="20dp"
+                android:checked="false" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_send_whenans"
+                android:background="@mipmap/send"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

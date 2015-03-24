@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView15" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whenenque_title"
+                android:id="@+id/textView5"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whatcheck_comme"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:background="#ff7fc8d5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enquetitle_activity_whatenquet"
+                android:id="@+id/textView21"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTitle"
+                android:background="@drawable/simple_frame"
+                android:paddingLeft="300dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView6"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comme_activity_whatenquet"
+                android:id="@+id/textView22"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewComme"
+                android:background="@drawable/simple_frame"
+                android:paddingLeft="300dp"
+                android:paddingTop="40dp"
+                android:layout_marginLeft="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:background="@mipmap/touroku"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

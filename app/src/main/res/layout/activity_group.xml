@@ -1,0 +1,65 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackathon.aso.schedulemaster.activity.GroupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_groupmember"
+            android:id="@+id/textView5"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#FFA500" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="メンバーを選択してください。"
+            android:id="@+id/textView2"
+            android:layout_marginBottom="5dp"
+            android:textSize="15sp"
+            android:background="#ff7fc8d5" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="327dp"
+            android:id="@+id/listViewMember" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#FFA500" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewAdd"
+            android:background="@mipmap/add"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="75dp" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

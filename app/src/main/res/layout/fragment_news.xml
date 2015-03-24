@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackathon.aso.schedulemaster.activity.NewsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="新着情報"
+            android:layout_marginBottom="5dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="#ff7fc8d5" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tv_message_news" />
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/lv1_news_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+</FrameLayout>

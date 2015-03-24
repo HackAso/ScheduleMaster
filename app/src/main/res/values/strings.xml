@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">ScheduleMaster</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_management">幹事</string>
+    <string name="title_activity_preference">その他</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_abstract">AbstractActivity</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="title_activity_schedules">SchedulesActivity</string>
+    <string name="title_activity_login">IDとパスワードを入力してログインをしてください</string>
+    <string name="title_activity_entry">会員登録はこちら！</string>
+    <string name="title_activity_acountentry">会員登録</string>
+    <string name="title_activity_acountlogin">ログイン</string>
+    <string name="id_activity_acount">ID</string>
+    <string name="pass_activity_acount">パスワード</string>
+    <string name="nick_activity_acount">ニックネーム</string>
+    <string name="check_activity_entry">下記の内容で登録してもよろしいですか？</string>
+    <string name="title_activity_newplan">予定登録</string>
+    <string name="planname_activity_newplan">予定名</string>
+    <string name="day_activity_newplan">日付</string>
+    <string name="title_activity_groupmember">予定登録−メンバー追加</string>
+    <string name="title_activity_plancheck">予定登録確認</string>
+    <string name="time_activity_newplan">時間</string>
+    <string name="member_activity_planchek">参加するメンバー</string>
+    <string name="title_activity_enquet">アンケート作成</string>
+    <string name="title_activity_whatenquet">■なにする？</string>
+    <string name="enquetitle_activity_whatenquet">アンケートタイトル</string>
+    <string name="comme_activity_whatenquet">コメント</string>
+    <string name="day_activity_whatenquet">回答期限の設定</string>
+    <string name="title_activity_reslist">回答確認</string>
+    <string name="activity_friendslist_title">フレンド一覧</string>
+    <string name="activity_friendentry_title">フレンド-登録</string>
+    <string name="activity_frienddelete_title">フレンド-削除</string>
+    <string name="activity_whacheck_title">なにする？−確認</string>
+    <string name="activity_whenenque_title">■いつする？</string>
+    <string name="activity_friendsentry_comme">登録するフレンドのアドレスを入力してください。</string>
+    <string name="activity_friendsdelete_comme">削除したいフレンドのを入力してください。</string>
+    <string name="activity_whatcheck_comme">送信する内容を確認してください。</string>
+    <string name="activity_whocheck_comme">内容を入力してください。</string>
+    <string name="activity_whatres_enque">タイトル</string>
+    <string name="activity_whatres_comme">コメント</string>
+    <string name="activity_whatres_answer">コメント</string>
+    <string name="activity_what_title">なにする？</string>
+    <string name="activity_when_title">いつ？</string>
+    <string name="activity_who_title">誰と？</string>
+    <string name="activity_answerlist_title">返答一覧</string>
+    <string name="activity_whenenque_comme">この内容で送信してもよろしいですか？</string>
+    <string name="activity_whenenqueres_title">選択したい項目にチェックを入れてください。</string>
+    <string name="title_activity_what_answer">何する?</string>
+    <string name="title_activity_when_answer">いつ?</string>
+    <string name="title_activity_who_answer">だれと?</string>
+    <string name="title_activity_select_friends">フレンド選択</string>
+    <string name="activity_whoenqueres_comme">送りたいメンバーを選択してください。</string>
+    <string name="activity_whoenqueres_join">参加する</string>
+    <string name="activity_whoenqueres_notjoin">参加しない</string>
+    <string name="activity_whocheck_title">誰と？−確認</string>
+    <string name="activity_plandelete_title">予定削除</string>
+    <string name="fragment_member_title">フレンド</string>
+    <string name="fragment_planname_title">予定</string>
+    <string name="fragment_planname_comme">予定名</string>
+
+
+    <string-array name="hour">
+        <item>0時</item>
+        <item>1時</item>
+        <item>2時</item>
+        <item>3時</item>
+        <item>4時</item>
+        <item>5時</item>
+        <item>6時</item>
+        <item>7時</item>
+        <item>8時</item>
+        <item>9時</item>
+        <item>10時</item>
+        <item>11時</item>
+        <item>12時</item>
+        <item>13時</item>
+        <item>14時</item>
+        <item>15時</item>
+        <item>16時</item>
+        <item>17時</item>
+        <item>18時</item>
+        <item>19時</item>
+        <item>20時</item>
+        <item>21時</item>
+        <item>22時</item>
+        <item>23時</item>
+    </string-array>
+
+    <string-array name="minute">
+        <item>00分</item>
+        <item>10分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>40分</item>
+        <item>50分</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="tv_email_register">メールアドレス</string>
+    <string name="title_activity_friend_entry">FriendEntryActivity</string>
+    <string name="title_activity_friends_list">FriendsListActivity</string>
+    <string name="title_activity_view_answer">viewAnswerActivity</string>
+    <string name="tv_title_viewAnswer">アンケート回答確認</string>
+    <string name="title_activity_what_check">WhatCheckActivity</string>
+    <string name="title_activity_what_ans_list">WhatAnsListActivity</string>
+    <string name="title_activity_delete_plan">DeletePlanActivity</string>
+    <string name="title_activity_when_ans_list">WhenAnsListActivity</string>
+    <string name="title_activity_answer_using_wear">AnswerUsingWear</string>
+    <string name="title_activity_who_ans">WhoAnsActivity</string>
+</resources>

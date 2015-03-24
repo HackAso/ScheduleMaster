@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView23" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_preference"
+                android:id="@+id/textView5"
+                android:textSize="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                        android:layout_width="match_parent"
+                        android:layout_height="5px"
+                        android:background="#FFA500"
+                        android:layout_alignBottom="@+id/textView5"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ib_friendlist_preferences"
+                    android:background="@mipmap/friendlist"
+                android:layout_marginTop="50dp" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_search_preferences"
+                    android:background="@mipmap/friendsearch"
+                    android:layout_marginTop="50dp" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_logout_preferences"
+                    android:background="@mipmap/logout"
+                    android:layout_marginTop="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

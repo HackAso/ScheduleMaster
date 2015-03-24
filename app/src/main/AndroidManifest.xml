@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hackathon.aso.schedulemaster" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="hackathon.aso.schedulemaster.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="hackathon.aso.schedulemaster.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.ManagementActivity"
+            android:label="@string/title_activity_management"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.PreferencesActivity"
+            android:label="@string/title_activity_preferences"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.GroupActivity"
+            android:label="@string/title_activity_group" />
+        <activity
+            android:name=".activity.SchedulesActivity"
+            android:label="@string/title_activity_schedules"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activity.NewplanActivity"
+            android:label="@string/title_activity_newplan" />
+        <activity
+            android:name=".activity.EnquetActivity"
+            android:label="@string/title_activity_enquet" />
+
+         <receiver
+         android:name="com.nifty.cloud.mb.NCMBGCMBroadcastReceiver"
+         android:permission="com.google.android.c2dm.permission.SEND" >
+         <intent-filter>
+         <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+         <category android:name="hackathon.aso.schedulemaster" />
+         </intent-filter>
+         </receiver>
+        <receiver
+            android:name=".activity.MyCustomReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="hackathon.aso.schedulemaster.activity.MyCustomReceiver" />
+
+                <category android:name="hackathon.aso.schedulemaster" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".activity.MyCustomReceiver2"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="hackathon.aso.schedulemaster.activity.MyCustomReceiver2" />
+                <category android:name="hackathon.aso.schedulemaster" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.addFrindActivity"
+            android:label="@string/title_activity_friend_entry" >
+        </activity>
+        <activity
+            android:name=".activity.FriendsListActivity"
+            android:label="@string/title_activity_friends_list" >
+        </activity>
+        <activity
+            android:name=".activity.WhatEnqueActivity"
+            android:label="@string/activity_what_title" >
+        </activity>
+        <activity
+            android:name=".activity.WhenEnqueActivity"
+            android:label="@string/activity_when_title" >
+        </activity>
+        <activity
+            android:name=".activity.WhoEnqueActivity"
+            android:label="@string/activity_who_title" >
+        </activity>
+        <activity
+            android:name=".activity.WhatAnswerActivity"
+            android:label="@string/title_activity_what_answer" >
+        </activity>
+        <activity
+            android:name=".activity.WhenAnswerActivity"
+            android:label="@string/title_activity_when_answer" >
+        </activity>
+        <activity
+            android:name=".activity.WhoAnswerActivity"
+            android:label="@string/title_activity_who_answer" >
+        </activity>
+        <activity
+            android:name=".activity.SelectFriendsActivity"
+            android:label="@string/title_activity_select_friends" >
+        </activity>
+        <activity
+            android:name=".activity.WhoResActivity"
+            android:label="だれ回答" >
+        </activity>
+        <activity
+            android:name=".activity.CheckAnswerActivity"
+            android:label="アンケート回答確認" >
+        </activity>
+        <activity
+            android:name=".activity.CheckEnqueteActivity"
+            android:label="アンケート選択" >
+        </activity>
+        <activity
+            android:name=".activity.WhatAnsListActivity"
+            android:label="@string/title_activity_what_ans_list" >
+        </activity>
+        <activity
+            android:name=".activity.DeletePlanActivity"
+            android:label="@string/title_activity_delete_plan" >
+        </activity>
+        <activity
+            android:name=".activity.WhenAnsListActivity"
+            android:label="@string/title_activity_when_ans_list" >
+        </activity>
+        <activity
+            android:name=".activity.AnswerUsingWear"
+            android:label="@string/title_activity_answer_using_wear" >
+        </activity>
+        <activity
+            android:name=".activity.WhoAnsListActivity"
+            android:label="@string/title_activity_who_ans" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hackathon.aso.schedulemaster.activity.HomeActivity">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:name="hackathon.aso.schedulemaster.activity.TodaysSchedules"-->
+        <!--android:id="@+id/fragment_todays_home"-->
+        <!--tools:layout="@layout/fragment_todays_schedules" />-->
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="hackathon.aso.schedulemaster.activity.NewsFragment"
+        android:id="@+id/fragment_news_home"
+        tools:layout="@layout/fragment_news" />
+</LinearLayout>
+    </RelativeLayout>

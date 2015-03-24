@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_frienddelete_title"
+                android:id="@+id/textView5"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_friendsdelete_comme"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:background="#ff7fc8d5" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="456dp"
+                android:id="@+id/listViewFliends" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

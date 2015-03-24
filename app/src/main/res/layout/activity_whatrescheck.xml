@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView12" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_whatenquet"
+                android:id="@+id/textView5"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whenenque_comme"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:background="#ff7fc8d5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whatres_enque"
+                android:id="@+id/textView7"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textViewEnquetitle"
+                android:textSize="25dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#FF0000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whatres_comme"
+                android:id="@+id/textView8"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textViewEnquecomme"
+                android:textSize="25dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#0000FF"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#FFA500"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_whatres_answer"
+                android:id="@+id/textView25"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewComme"
+                android:background="@drawable/simple_frame"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="300dp"
+                android:paddingTop="40dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageViewCheck"
+                android:background="@mipmap/send"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="95dp" />
+
+
+        </LinearLayout>
+
+        </ScrollView>
+</RelativeLayout>
