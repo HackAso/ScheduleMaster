@@ -1,4 +1,5 @@
 package hackathon.aso.schedulemaster;
+//コメントを書いたよ
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,8 +22,9 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private TextView mTextView;
     NCMBUser user;
+    private TextView mTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         String applicationKey = "3f054d7a8769bdac50d30b3eb2f49d4165134683a538b69fbb7af68cc4ac8024";
